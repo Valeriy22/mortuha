@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мортал комбат. Фильм 2021</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> <!--Подключаем шрифт-->
+    <!--Далее скачиваем файл normalize.css-->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <video autoplay loop>
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.webm" type="video/webm">
+        <source src="video/video.ogv" type="video/ogg"/>
+    </video>
+
+    <div class="app" id = "app">
+        <header class = "header">
+                <a href="/" class="logo">
+                    <img src = "IMG/logo.svg" alt = "Логотип компании" class="logo-image">
+                </a>
+                
+                <a href = "#" class="user">
+                    <span class = user-name>Валерий</span>
+                    <img src="IMG/avatar.png" alt = "Аватарка" class = "ava">    
+                </a>
+        </header>
+
+        <section class="film">
+            <img src="IMG/film-logo.png" alt = "Мортуха" class = "film-logo">    
+            <div class="tags"> 
+                <span class="date">2021</span>
+                <span class="genre">Боевик, фентези, фантастика</span>
+                <span class="country">США</span>
+                <span class="age">18+</span>
+            </div>
+
+            <p class = "description">Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший</p>
+            <div class="button-group">
+                <button class = "button button-primary">Предзаказ фильма</button>
+                <button class = "button button-text">Смотреть трейлер</button>
+            </div>    
+        </section>
+    </div>    
+</body>
+</html>
